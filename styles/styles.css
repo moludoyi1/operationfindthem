@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Crimson+Text:ital@1&family=Hind+Siliguri:wght@300&family=Lora:ital,wght@1,700&display=swap');
+
+header{
+    display: grid;
+    grid-template-columns: 200px auto;
+    background-color: black;
+    text-align: center;
+}
+.logo{
+    width: 200px;
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+/* #logo_link{
+    align-self: center;
+    padding-top: 5px;
+    justify-self: center;
+} */
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+
+}
+nav a{
+    display: flex;
+    color: white;
+    transition: transform .5s;
+    text-align: center;
+    font-size: 25px;
+}
+nav a:hover{
+    text-decoration: none;
+    transform: scale(1.1);
+    font-size: 25px;
+    font-size-adjust: 25px;
+}
+body {
+    background-color: rgba(132, 165, 173, 0.671);
+    text-align: center;
+    color:black;
+    font-size: 15px;
+    font-family: "Crimson Text";
+    margin: 0;
+    padding: 0;
+}
+img{
+    display: block;
+    margin: 0 auto;
+}
+.home-grid{
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr 1fr 2fr;
+    grid-template-rows: auto 100px auto 100px;
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.felicity-card{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.scott-card{
+    grid-row: 1/2;
+    grid-column: 3/4;
+}
+.jessica-card{
+    grid-row: 1/2;
+    grid-column: 5/6;
+}
+.salvador-card{
+    grid-row: 4/5;
+    grid-column: 1/2;
+}
+.joleen-card{
+    grid-row: 4/5;
+    grid-column: 3/4;
+}
+.jaiddon-card{
+    grid-row: 4/5;
+    grid-column: 5/6;
+}
+.card-img{
+    width: 100%;
+}
+footer{
+    background-color: white;
+    display: grid;
+    margin-top: 300px;
+}
