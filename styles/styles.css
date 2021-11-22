@@ -56,7 +56,7 @@ img{
     margin-left: 20px;
     margin-right: 20px;
 }
-.felicity-card{
+.page2{
     grid-column: 1/2;
     grid-row: 1/2;
 }
@@ -76,15 +76,35 @@ img{
     grid-row: 4/5;
     grid-column: 3/4;
 }
-.jaiddon-card{
+.page3{
     grid-row: 4/5;
     grid-column: 5/6;
 }
 .card-img{
     width: 100%;
 }
+footer a{
+    color: rgb(173, 77, 77);
+    transition: transform .5s;
+}
+footer h3{
+    text-align: left;
+}
+.website{
+    position: left;
+    width: 200px;
+}
+footer a:hover{
+    text-decoration: none;
+    transform: scale(1.1);
+    font-size: 30px;
+    font-size-adjust: 2
+}
 footer{
     background-color: white;
     display: grid;
-    margin-top: 300px;
+    margin-top: 350px;
+    /* padding: 25px 50px; */
+    /* justify-content: space-around; */
+    /* align-items: center; */
 }
