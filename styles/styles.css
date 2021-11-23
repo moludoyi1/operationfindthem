@@ -87,12 +87,21 @@ footer a{
     color: rgb(173, 77, 77);
     transition: transform .5s;
 }
-footer h3{
-    text-align: left;
+footer .copyright{
+    text-align: center;
+    grid-column: 1/4;
+    grid-row: 2/3;
 }
 .website{
-    position: left;
-    width: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+.website img{
+    width: 150px;
+}
+.website a:nth-of-type(2){
+    margin-left: 10px;
+    margin-right: 10px;
 }
 footer a:hover{
     text-decoration: none;
@@ -104,7 +113,5 @@ footer{
     background-color: white;
     display: grid;
     margin-top: 350px;
-    /* padding: 25px 50px; */
-    /* justify-content: space-around; */
-    /* align-items: center; */
+    grid-template-columns: 1fr 1fr 2fr;
 }
