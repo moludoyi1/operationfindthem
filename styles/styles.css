@@ -11,11 +11,6 @@ header{
     grid-row: 1/2;
     grid-column: 1/2;
 }
-/* #logo_link{
-    align-self: center;
-    padding-top: 5px;
-    justify-self: center;
-} */
 nav{
     display: flex;
     justify-content: space-around;
