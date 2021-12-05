@@ -93,6 +93,7 @@ footer .copyright{
 }
 .website img{
     width: 150px;
+    padding-top: 10px;
 }
 .website a:nth-of-type(2){
     margin-left: 10px;
@@ -102,7 +103,7 @@ footer a:hover{
     text-decoration: none;
     transform: scale(1.1);
     font-size: 30px;
-    font-size-adjust: 2
+    font-size-adjust: 2;
 }
 footer{
     background-color: white;
