@@ -66,9 +66,8 @@ h3{
 .jaiddon-card{
     grid-row: 2/4;
     grid-column: 3/4;
-    width: 100%;
+    width: 90%;
     align-self: center;
-    padding-right: 40px;
 }
 .jaiddon-text{
     grid-row: 4/5;
@@ -81,7 +80,7 @@ h3{
     justify-self: center;
     font-size: 25px;
     transition: transform .5s;
-    margin-left: 60px;
+    margin: 60px;
 }
 .text2-card:hover{
     text-decoration: none;

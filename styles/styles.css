@@ -23,6 +23,7 @@ nav a{
     transition: transform .5s;
     text-align: center;
     font-size: 25px;
+    text-decoration: none;
 }
 nav a:hover{
     text-decoration: none;
@@ -50,6 +51,13 @@ img{
     margin-top: 100px;
     margin-left: 20px;
     margin-right: 20px;
+}
+.home-grid h2{
+    color: green;
+    text-decoration: none;
+}
+.home-grid a{
+    text-decoration: none;
 }
 .page2{
     grid-column: 1/2;
@@ -81,6 +89,7 @@ img{
 footer a{
     color: rgb(173, 77, 77);
     transition: transform .5s;
+    text-decoration: none;
 }
 footer .copyright{
     text-align: center;
