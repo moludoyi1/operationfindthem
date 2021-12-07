@@ -23,7 +23,8 @@ nav a{
     text-align: center;
     font-size: 28px;
     font-size-adjust: 2;
-    font-family: "Lora";
+    /* font-family: "Lora"; */
+    text-decoration: none;
 }
 nav a:hover{
     text-decoration: none;
@@ -35,6 +36,7 @@ body{
     background-color: rgb(181, 223, 118);
     margin: 0;
     padding: 0;
+    font-family: "Crimson Text";
 }
 #content{
     margin: 0 auto;
@@ -103,12 +105,17 @@ footer a{
     color: rgb(173, 77, 77);
     transition: transform .5s;
     font-family: "Crimson Text";
+    text-decoration: none;
 }
 footer .copyright{
     text-align: center;
     grid-column: 1/4;
     grid-row: 2/3;
     font-family: "Crimson Text";
+}
+footer h3{
+    align-self: center;
+    justify-content: center;
 }
 .website{
     display: flex;
@@ -123,10 +130,10 @@ footer .copyright{
     margin-right: 10px;
 }
 .contactus{
-    padding-left: 200px;
+    padding-left: 100px;
 }
 .needhelp{
-    padding-left: 150px;
+    padding-left: 100px;
 }
 footer a:hover{
     text-decoration: none;
