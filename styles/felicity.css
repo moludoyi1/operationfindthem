@@ -5,6 +5,7 @@ header{
     grid-template-columns: 200px auto;
     background-color: black;
     text-align: center;
+    max-width: 100%;
 }
 .logo{
     width: 200px;
