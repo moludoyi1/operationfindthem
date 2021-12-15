@@ -90,6 +90,11 @@ footer a{
     color: rgb(173, 77, 77);
     transition: transform .5s;
     text-decoration: none;
+    font-size: 20px;
+}
+footer h3{
+    align-self: center;
+    justify-content: center;
 }
 footer .copyright{
     text-align: center;
